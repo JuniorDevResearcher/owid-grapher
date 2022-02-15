@@ -18,6 +18,7 @@ import {
     BAKED_GRAPHER_EXPORTS_BASE_URL,
 } from "../settings/clientSettings.js"
 import { ExplorerProgram } from "../explorer/ExplorerProgram.js"
+import { jest } from "@jest/globals"
 
 // There are many possible dimensions to test:
 // - style: default / thin
