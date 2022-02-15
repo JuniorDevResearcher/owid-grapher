@@ -5,7 +5,7 @@ import {
     PROMINENT_LINK_CLASSNAME,
     WITH_IMAGE,
 } from "../site/blocks/ProminentLink.js"
-import * as cheerio from "cheerio"
+import cheerio from "cheerio"
 import { FullPost, WP_PostType } from "../clientUtils/owidTypes.js"
 import * as wpdb from "../db/wpdb.js"
 import {
